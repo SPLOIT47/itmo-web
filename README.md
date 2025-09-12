@@ -1,3 +1,3 @@
-# web-lab1.github.io
+# web-lab1
 
 Дегтярь Александр M3309
