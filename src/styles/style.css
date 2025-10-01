@@ -1,0 +1,294 @@
+* {
+    /*font-family: 'Roboto', serif;*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+p,
+ol,
+ul {
+ margin: 0;
+}
+
+ol[role="list"],
+ul[role="list"] {
+ list-style: none;
+ padding-inline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+ font-size: inherit;
+ font-weight: inherit;
+}
+
+img {
+ display: block;
+ max-inline-size: 100%;
+}
+
+.homepage {
+  height: 800px;
+  background: url(../img/main_bg.jpg) no-repeat center / cover;
+  padding-top: 22px;
+  text-align: center;
+}
+
+.logo-img, .logo-text {
+  margin: 0 auto;
+}
+
+.logo-text {
+  color: #FFFFFF;
+  margin-top: 13px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.logo-text, h1, .simple, .subheader, .description-marked, .homepage-button {
+  text-transform: uppercase;
+}
+
+h1, .subheader {
+  color: #F9BF3B;
+  font-size: 41px;
+  font-weight: bold;
+  margin-top: 52px;
+}
+
+.simple {
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+  margin-top: 12px;
+}
+
+.subheader {
+  margin-top: 12px;
+}
+
+.description {
+  font-size: 21px;
+  color: white;
+  font-weight: 500;
+  
+  width: 1140px;
+  margin: 16px auto 0;
+}
+
+.description-marked {
+  color: #F9BF3B;
+}
+
+.homepage-button {
+  width: 315px;
+  height: 72px;
+  border: 0;
+  border-radius: 4px;
+  background: linear-gradient(#FEB05D, #FF4D00);
+  margin-top: 72px;
+  color: white;
+  font-weight: 500;
+}
+
+.expectations {
+    height: 592px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expectations-header {
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.expectations-subheader {
+    font-size: 23px;
+    font-weight: 500;
+    color: #4A4A4A;
+}
+
+
+.horizontal-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    margin-top: 42px;
+}
+
+.divider {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.horizontal-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.expectations-text {
+    width: 360px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.info {
+    position: relative;
+    background-color: #0F0B0B;
+    height: 564px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-radio {
+    position: absolute;
+    z-index: 0;
+    margin-top: 191px;
+    margin-right: 800px;
+}
+
+.info-header {
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #F9BF3B;
+}
+
+.info-text-container {
+    margin-top: 100px;
+    margin-left: 300px;
+    text-align: right;
+    z-index: 1;
+}
+
+.info-text {
+    width: 750px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #9a9a9a;
+    margin-top: 1.5em;
+}
+
+.info-text.last {
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.results {
+    height: 450px;
+    background: url("../img/results_bg.png") no-repeat center / cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.results-header {
+    margin-top: 80px;
+    color: #EFEFEF;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.results-box {
+    width: 115px;
+    height: 115px;
+    background: url("../icons/Circle.svg") no-repeat center / cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.results-box-text {
+    width: 224px;
+    color: #EFEFEF;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+}
+
+.bonuses {
+    background: #EFEFEF;
+    height: 613px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bonuses-present {
+    margin-top: 80px;
+}
+
+.bonuses-text {
+    margin-top: 75px;
+    width: 60vw;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.meeting {
+    display: flex;
+    background: #0F0B0B;
+    flex-direction: column;
+    align-items: center;
+    height: 520px;
+}
+
+.meeting-logo {
+    margin-top: 40px;
+}
+
+.meeting-header {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.meeting-date {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #F9BF3B;
+}
+
+.meeting-text {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 23px;
+    color: #EFEFEF;
+}
+
+.footer {
+    height: 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #1A1A1A;
+}
+
+.footer-text {
+    width: 190px;
+    color: #888888;
+    text-align: center;
+}
