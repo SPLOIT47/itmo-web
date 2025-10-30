@@ -1,0 +1,179 @@
+.homepage {
+  padding-top: 50px;
+  align-items: center;
+  text-align: center;
+
+  &__head_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__segment {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__quote {
+    margin-block-start: 50px;
+    padding-inline: 2.5px;
+    max-width: 600px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  &__title {
+    margin-block-start: 50px;
+    padding-inline: 2.5px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  &__image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__img {
+    margin: 20px auto 0 auto;
+    width: 100%;
+    max-width: 400px;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  &__btn {
+    margin: 30px auto 0 auto;
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .homepage {
+    &__head_content {
+      flex-direction: row;
+      align-items: flex-end;
+      text-align: left;
+    }
+
+    &__text {
+      display: flex;
+      align-self: center;
+      align-items: center;
+      width: 329px;
+    }
+
+    &__quote {
+      text-align: left;
+      margin-left: 60px;
+    }
+
+    &__image {
+      margin-right: -60px;
+    }
+
+    &__img {
+      width: 230px;
+      height: 321px;
+    }
+
+    &__btn {
+      margin: 20px 0 0 0;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .homepage {
+    padding-top: 80px;
+
+    &__content {
+      gap: 0;
+    }
+
+    &__head_content {
+      margin-left: 500px;
+    }
+
+    &__segment {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      padding-left: 30px;
+    }
+
+    &__quote {
+      width: 329px;
+      margin-left: 0;
+    }
+
+    &__text {
+      align-items: flex-end;
+      margin-top: 150px;
+    }
+
+    &__image {
+      margin-right: 0;
+    }
+
+    &__img {
+      width: 230px;
+      height: 321px;
+      gap: 0;
+    }
+
+    &__btn {
+      margin: 30px 0 0 0;
+      width: 230px;
+      height: 55px;
+      font-size: 22px;
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+	.homepage {
+
+      &__content {
+          gap: 100px;
+      }
+
+      &__segment {
+        gap: 50px
+      }
+
+      &__text {
+        align-items: flex-end;
+        margin-top: 200px;
+      }
+
+		&__quote {
+			text-align: left;
+		}
+		
+		&__img {
+			width: 330px;
+			height: 460px;
+		}
+		
+		&__btn {
+			margin: 40px 0 0 0;
+			width: 330px;
+			height: 60px;
+			font-size: 24px;
+		}
+	}
+}

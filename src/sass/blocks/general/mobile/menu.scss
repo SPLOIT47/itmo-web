@@ -1,0 +1,46 @@
+@use "/src/sass/base/variables" as *;
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: $light;
+  backdrop-filter: blur(5px);
+  z-index: 10;
+  display: none;
+  
+  &--active {
+    display: block;
+  }
+
+  &__btn {
+    margin: 40px 10px;
+    width: 14px;
+    height: 14px;
+  }
+
+  &-close {
+    background: transparent;
+    border: none;
+    outline: none;
+    top: 20px;
+    padding: 0;
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20px;
+  }
+
+  &__item {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $dark;
+    font-weight: 400;
+    font-size: 20px;
+  }
+}

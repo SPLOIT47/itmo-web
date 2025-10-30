@@ -1,0 +1,43 @@
+@use "/src/sass/base/variables" as *;
+
+.filters {
+  &__container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 10px 40px;
+    border: 1px solid $dark;
+    padding: 10px 20px;
+    margin-top: 40px;
+    max-width: 350px;
+  }
+
+  &__filter-item {
+    display: inline-block;
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+
+    outline: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+
+    &.active {
+      border-bottom: 2px solid $dark;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .filters {
+    &__container {
+      max-width: 758px;
+    }
+  }
+}

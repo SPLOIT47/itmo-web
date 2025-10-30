@@ -1,0 +1,24 @@
+
+.head-img {
+  display: none;
+}
+
+
+@media (min-width: 1200px) {
+  .head-img {
+    position: absolute;
+    display: flex;
+    width: 420px;
+    height: 623px;
+  }
+}
+
+@media (min-width: 1960px) {
+  .head-img {
+    position: absolute;
+    display: flex;
+    width: 640px;
+    height: 900px;
+  }
+}
+

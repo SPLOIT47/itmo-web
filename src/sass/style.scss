@@ -1,0 +1,29 @@
+@use "/src/sass/libs/modern-normalize.min.css";
+@use "/src/sass/libs/fontello.css";
+@use "/src/sass/base/basic.scss";
+
+@use "/src/sass/ui/text";
+@use "/src/sass/ui/buttons.scss";
+@use "/src/sass/ui/inputs.scss";
+
+@use "/src/sass/blocks/general/header/header";
+@use "/src/sass/blocks/general/mobile/menu";
+@use "/src/sass/blocks/general/footer/footer";
+@use "/src/sass/blocks/general/mainframe/contact";
+
+@use "/src/sass/blocks/homepage/homepage";
+@use "/src/sass/blocks/homepage/store";
+@use "/src/sass/blocks/homepage/workshop";
+@use "/src/sass/blocks/homepage/gallery";
+@use "/src/sass/blocks/homepage/other";
+
+@use "/src/sass/blocks/catalog/catalog";
+@use "/src/sass/blocks/catalog/filters";
+@use "/src/sass/blocks/catalog/catalog_feed";
+
+
+@use "/src/sass/blocks/blog/blog";
+@use "/src/sass/blocks/blog/blog_feed";
+
+@use "/src/sass/blocks/about/about";
+@use "/src/sass/blocks/about/find";
