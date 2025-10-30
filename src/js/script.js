@@ -1,4 +1,4 @@
-import "/src/sass/style.scss";
+import "../sass/style.scss";
 import Swiper from 'swiper';
 import { Autoplay, Pagination } from 'swiper/modules';
 
