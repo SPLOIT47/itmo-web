@@ -5,7 +5,7 @@ import { defineConfig } from "vite";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-    base: '/sploit-site/',
+    base: '/sploit-site',
 	build: {
 		rollupOptions: {
 			input: {

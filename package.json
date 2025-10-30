@@ -1,12 +1,15 @@
 {
-	"name": "ceramic_soul",
+	"name": "sploit-site",
+	"homepage": "https://sploit47.github.io/itmo-web/",
 	"version": "1.0.0",
 	"description": "",
 	"main": "vite.config.js",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
 	},
 	"author": "",
 	"license": "ISC",
@@ -16,6 +19,7 @@
 		"vite": "^6.1.0"
 	},
 	"dependencies": {
+		"gh-pages": "^6.3.0",
 		"swiper": "^12.0.2"
 	}
 }
