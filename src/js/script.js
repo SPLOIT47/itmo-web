@@ -1,14 +1,14 @@
 import "../sass/style.scss";
 import Swiper from 'swiper';
-import { Autoplay, Pagination } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const swiper = new Swiper('.gallery-swiper', {
-  modules: [Autoplay, Pagination],
-  
+  modules: [Autoplay, Pagination, Navigation],
+
   loop: true,
   autoplay: {
     delay: 3000,
@@ -36,12 +36,14 @@ const swiper = new Swiper('.gallery-swiper', {
       spaceBetween: 30,
     },
     1200: {
-      slidesPerView: 3,
-      spaceBetween: -110,
+        slidesPerView: 3,
+        slidesPerGroup: 1,
+        spaceBetween: -110,
         centeredSlides: false,
     },
       1920: {
-        slidesPerView: 3,
+          slidesPerView: 3,
+          slidesPerGroup: 1,
           spaceBetween: -30,
           centeredSlides: false,
       }
@@ -73,3 +75,4 @@ filterButtons.forEach(button => {
         button.classList.add('active');
     });
 });
+
